@@ -1,0 +1,54 @@
+body {
+    font-family: Poppins;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hero-banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.fixed-header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: all 0.5 ease-in-out;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text p{
+    font-size: 18px;
+}
+
+/* About Section */
+.about-section {
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.section-title {
+    font-size: 1.5rem;
+}
+
+/* Gallery */
+
+
+/* Email Modal Confirmation */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
